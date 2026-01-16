@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev {
+  background: #96f2fa;
+  padding: 1.25rem; /* same as p-5 */
+  border-radius: 9999px; /* same as rounded-full */
+  z-index: 50;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* same as shadow-md */
+}
+
+.swiper-button-next {
+  background: #96f2fa;
+  padding: 1.25rem; /* same as p-5 */
+  border-radius: 9999px; /* same as rounded-full */
+  z-index: 50;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* same as shadow-md */
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 16px !important;
+}
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
