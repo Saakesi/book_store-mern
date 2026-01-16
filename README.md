@@ -1,7 +1,5 @@
-==================================================
-BOOK STORE – MERN STACK APPLICATION
-==================================================
 
+BOOK STORE – MERN STACK APPLICATION
 OVERVIEW
 --------------------------------------------------
 Book Store is a full-stack MERN (MongoDB, Express.js,
